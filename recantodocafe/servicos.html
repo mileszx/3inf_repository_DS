@@ -6,69 +6,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/styles/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-    <title>Suporte - Recanto do Café</title>
+    <title>Serviços - Recanto do Café</title>
 </head>
 
 <body>
-    <header>
-        <div class="logo">
-            <a href="index.html">
-                <img src="img/logo.png" alt="Recanto do Café">
-            </a>
+    <div class="container">
+        <header>
+            <div class="logo"><a href="index.html"><img src="img/logo.png" alt="Recanto do Café"></a></div>
+            <nav>
+                <ul>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="sobre.html">Sobre nós</a></li>
+                    <li><a href="clientes.html">Clientes</a></li>
+                    <li><a href="suporte.html">Suporte</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="section-titulo-paginas">
+            <h1>Soluções Corporativas e Eventos</h1>
+            <p>Levamos a experiência gastronômica premium do Recanto diretamente para você.</p>
         </div>
 
-        <nav>
-            <ul>
-                <li><a href="sobre.html">Sobre nós</a></li>
-                <li><a href="suporte.html">Suporte</a></li>
-                <li><a href="clientes.html">Clientes</a></li>
-            </ul>
-        </nav>
-    </header>
+        <main class="pagina-servicos">
+            <div class="bloco">
+                <img src="img/entregador.jpg" alt="Serviço de Entrega">
+                <button>SERVIÇOS DE ENTREGA</button>
+            </div>
+            <div class="bloco">
+                <img src="img/retirada.jpg" alt="Serviço de Retirada">
+                <button>SERVIÇOS DE RETIRADA</button>
+            </div>
+        </main>
 
-    <main class="pagina-servicos">
+        <section class="servicos" style="padding-top: 0;">
+            <div class="card">
+                <div class="texto">
+                    <h2>CATERING PARA EVENTOS</h2>
+                    <p>Estrutura completa de barista e buffet de doces/salgados para casamentos, reuniões de negócios e
+                        festas corporativas.</p>
+                </div>
+                <img src="img/brunch.png" alt="Catering de Eventos">
+            </div>
+            <div class="card invertido">
+                <img src="img/cesta.png" alt="Clube de Assinatura">
+                <div class="texto">
+                    <h2>CLUBE DE ASSINATURA DE GRÃOS</h2>
+                    <p>Receba mensalmente na sua casa lotes exclusivos e limitados de cafés selecionados pelos nossos
+                        especialistas.</p>
+                </div>
+            </div>
+        </section>
 
-        <div class="bloco">
-
-            <img src="img/entregador.jpg">
-
-            <button>
-                SERVIÇOS DE ENTREGA
-            </button>
-
-        </div>
-
-        <div class="bloco">
-
-            <img src="img/retirada.jpg">
-
-            <button>
-                SERVIÇOS DE RETIRADA
-            </button>
-
-        </div>
-
-    </main>
-
-    <footer>
-
-        <p>
-            &copy; RECANTO DO CAFÉ - TODOS OS DIREITOS RESERVADOS
-        </p>
-
-        <div class="redes">
-
-            <a href="#">
-                <i class="fa-brands fa-whatsapp"></i>
-            </a>
-
-            <a href="#">
-                <i class="fa-brands fa-instagram"></i>
-            </a>
+        <div class="footer-container">
+            <div class="footer-info">
+                <div class="info-bloco">
+                    <h4>Onde Estamos</h4>
+                    <p>Rua dos Cafezais, 123 - Centro<br>Belo Horizonte - MG</p>
+                </div>
+                <div class="info-bloco">
+                    <h4>Horário de Funcionamento</h4>
+                    <p>Segunda a Sexta: 07h às 19h<br>Sábados e Feriados: 08h às 16h</p>
+                </div>
+            </div>
 
         </div>
-
-    </footer>
+    </div>
 </body>
 
 </html>

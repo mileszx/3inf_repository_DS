@@ -10,71 +10,85 @@
 </head>
 
 <body>
-    <header>
-        <div class="logo">
-            <a href="index.html">
-                <img src="img/logo.png" alt="Recanto do Café">
-            </a>
+    <div class="container">
+        <header>
+            <div class="logo"><a href="index.html"><img src="img/logo.png" alt="Recanto do Café"></a></div>
+            <nav>
+                <ul>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="sobre.html">Sobre nós</a></li>
+                    <li><a href="clientes.html">Clientes</a></li>
+                    <li><a href="suporte.html">Suporte</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="section-titulo-paginas">
+            <h1>Central de Atendimento</h1>
+            <p>Dúvidas, feedbacks ou solicitações especiais? Estamos aqui para ouvir você.</p>
         </div>
 
-        <nav>
-            <ul>
-                <li><a href="servicos.html">Serviços</a></li>
-                <li><a href="sobre.html">Sobre nós</a></li>
-                <li><a href="clientes.html">Clientes</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main class="suporte">
-
-        <div class="suporte-img">
-
-            <img src="img/suporte.jpg">
-
-        </div>
-
-        <div class="suporte-texto">
-
-            <h1>Fale conosco nos seguintes apps:</h1>
-
-            <div class="apps">
-
-                <i class="fa-brands fa-whatsapp"></i>
-
-                <i class="fa-brands fa-instagram"></i>
-
-                <i class="fa-brands fa-facebook"></i>
-
+        <main class="suporte-container-PRO">
+            <div class="form-suporte">
+                <h2>Envie uma Mensagem</h2>
+                <br>
+                <form action="#" method="POST">
+                    <div class="form-grupo">
+                        <label for="nome">Nome Completo</label>
+                        <input type="text" id="nome" required placeholder="Ex: João Silva">
+                    </div>
+                    <div class="form-grupo">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" required placeholder="seuemail@link.com">
+                    </div>
+                    <div class="form-grupo">
+                        <label for="motivo">Motivo do Contato</label>
+                        <select id="motivo">
+                            <option>Dúvidas Gerais</option>
+                            <option>Encomendas / Cestas</option>
+                            <option>Eventos Corporativos</option>
+                            <option>Sugestões ou Críticas</option>
+                        </select>
+                    </div>
+                    <div class="form-grupo">
+                        <label for="msg">Sua Mensagem</label>
+                        <textarea id="msg" rows="5" required placeholder="Como podemos te ajudar?"></textarea>
+                    </div>
+                    <button type="submit">ENVIAR AGORA</button>
+                </form>
             </div>
 
-            <h2>
-                Acesse nosso serviço de suporte!
-            </h2>
+            <div class="faq-secao">
+                <h2>Perguntas Frequentes (FAQ)</h2>
+                <div class="faq-item">
+                    <h3>Vocês fazem entregas em todas as regiões?</h3>
+                    <p>Atendemos um raio de até 15km da nossa loja física central através do nosso delivery próprio.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Como encomendar as cestas de café?</h3>
+                    <p>As encomendas de boxes e cestas devem ser feitas com pelo menos 24h de antecedência pelo nosso
+                        WhatsApp.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>O espaço possui Wi-Fi para home office?</h3>
+                    <p>Sim! Contamos com rede de alta velocidade gratuita e tomadas espalhadas nas mesas internas.</p>
+                </div>
+            </div>
+        </main>
 
+        <div class="footer-container">
+            <div class="footer-info">
+                <div class="info-bloco">
+                    <h4>Onde Estamos</h4>
+                    <p>Rua dos Cafezais, 123 - Centro<br>Belo Horizonte - MG</p>
+                </div>
+                <div class="info-bloco">
+                    <h4>Horário de Funcionamento</h4>
+                    <p>Segunda a Sexta: 07h às 19h<br>Sábados e Feriados: 08h às 16h</p>
+                </div>
+            </div>
         </div>
-
-    </main>
-
-    <footer>
-
-        <p>
-            &copy; RECANTO DO CAFÉ - TODOS OS DIREITOS RESERVADOS
-        </p>
-
-        <div class="redes">
-
-            <a href="#">
-                <i class="fa-brands fa-whatsapp"></i>
-            </a>
-
-            <a href="#">
-                <i class="fa-brands fa-instagram"></i>
-            </a>
-
-        </div>
-
-    </footer>
+    </div>
 </body>
 
 </html>
